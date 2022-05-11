@@ -1,0 +1,24 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "Girdhar",
+    "region"      : "ap-south-1",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp3.1",
+    "function-runtime" : "dotnetcore3.1",
+    "function-memory-size" : 256,
+    "function-timeout"     : 30,
+    "function-handler"     : "EmailVerifier::EmailVerifier.Function::FunctionHandler",
+    "function-name"        : "EmailVerifier",
+    "package-type"         : "Zip",
+    "function-role"        : "arn:aws:iam::436728321574:role/service-role/DemoDVAEmailValidation-role-4tp4hgx7",
+    "function-architecture" : "x86_64",
+    "tracing-mode"          : "PassThrough",
+    "environment-variables" : "",
+    "image-tag"             : ""
+}
